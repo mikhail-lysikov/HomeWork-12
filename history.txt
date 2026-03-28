@@ -1,0 +1,16 @@
+   71  touch README.md
+   72  git checkout -b feature
+   73  nano README.md
+   74  cat README.md
+   75  nano .gitignore
+   76  git status
+   77  git add.
+   78  git add .
+   79  git status
+   80  git commit -m "Changed files are here"
+   81  git log
+   82  git push -u origin feature
+   83  git commit --amend -m "Changed files are here ammend"
+   84  git push --force origin feature
+   85  git checkout main
+   86  git merge feature
